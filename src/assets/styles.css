@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
