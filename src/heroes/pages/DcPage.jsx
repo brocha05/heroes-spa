@@ -2,6 +2,10 @@ import { HeroList } from "../components/HeroList"
 
 export const DcPage = () => {
   return (
-    <HeroList publisher="DC Comics"/>
+    <>
+      <h1>DC Comics</h1>
+      <hr />
+      <HeroList publisher="DC Comics"/>
+    </>
   )
 }
