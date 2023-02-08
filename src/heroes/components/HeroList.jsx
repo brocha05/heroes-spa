@@ -7,7 +7,7 @@ export const HeroList = ({publisher}) => {
 
   return (
     <>
-      <div className="card">
+      <div className="card-container">
         {heroes.map( heroe => {
           return <HeroCard key={heroe.id} {...heroe} />
         })}

@@ -1,5 +1,24 @@
-.card{
+.card-container{
+    padding: 20px;
     display: flex;
-    width: 100%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.hero-img{
+    width: 60%;
+    
+}
+
+.hero-description{
+    width: 30%;
+    padding: 10px;
 }
