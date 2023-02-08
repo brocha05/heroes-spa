@@ -1,3 +1,5 @@
+import '../../assets/heroStyles.css'
+
 export const HeroCard = ({
   id,
   superhero,
@@ -6,8 +8,9 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const imgUrl = '../../assets/heroes/dc-arrow.jpg';
-    // const heroImage = `../../assets/heroes/${id}.jpg`
+
+  const imgUrl = `../heroes/${id}.jpg`;
+
   return (
     <>
       <div>
