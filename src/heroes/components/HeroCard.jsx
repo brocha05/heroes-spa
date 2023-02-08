@@ -21,10 +21,7 @@ export const HeroCard = ({
         <div>{alter_ego === characters ? "" : alter_ego}</div>
         <div className='hero-characters'>{characters === superhero ? "" : characters}</div>
         <div className='hero-appearance'>{first_appearance}</div>
-        <Button variant="contained" color="primary">
-          op
-        </Button>
-          <Link to={`/hero/${id}`}>More...</Link>
+        <Link to={`/hero/${id}`}>More...</Link>
            
       </div>
     </div>
