@@ -11,6 +11,6 @@ export const Hero = () => {
   }
 
   return (
-    <div>Hero</div>
+    <div>{hero.superhero}</div>
   )
 }
