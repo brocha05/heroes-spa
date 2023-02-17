@@ -11,6 +11,9 @@ export const Hero = () => {
   }
 
   return (
-    <div>{hero.superhero}</div>
+    <>
+      <div>{hero.superhero}</div>
+      <div>{hero.publisher}</div>
+    </>
   )
 }
