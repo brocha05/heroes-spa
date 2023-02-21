@@ -10,6 +10,8 @@ export const Hero = () => {
     return <Navigate to="/marvel"/>
   }
 
+  console.log("PRUEBA")
+
   return (
     <>
       <div>{hero.superhero}</div>
