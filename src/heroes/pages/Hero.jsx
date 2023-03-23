@@ -14,7 +14,6 @@ export const Hero = () => {
     navigate(-1);
   }
 
-
   if ( !hero ) {
     return <Navigate to="/marvel" />
   }

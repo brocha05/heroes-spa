@@ -1,9 +1,10 @@
 import { getHeroesByPublisher } from "../helpers/getHeroesByPublisher"
 import { HeroCard } from "./HeroCard"
+import { useMemo } from "react"
 import '../../assets/heroStyles.css'
 
 export const HeroList = ({publisher}) => {
-  const heroes = getHeroesByPublisher(publisher)
+  const heroes = useMemo( () => getHeroesByPublisher(publisher), [publisher]) 
 
   return (
     <>
