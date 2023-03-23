@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import '../../assets/heroStyles.css'
-import Button from '@mui/material/Button'
 
 export const HeroCard = ({
   id,
